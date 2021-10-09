@@ -1,0 +1,46 @@
+<h3>{{title}} Page</h3>
+<div class="container">
+   <div class="row">
+      <div class="col-md-8">
+         <div class="table table-hover"></div>
+
+
+  <form #productAddForm="ngForm" (ngSubmit)="addOrder(productAddForm)">
+     <div class="form-group">
+     <input type="text" #name="ngModel" [(ngModel)]="model.Order" class="form-control" name="order" placeholder="..." required>
+     <div *ngIf="name.invalid&&name.dirty">Boş bırakılamaz</div>
+     </div>
+     <br />
+
+     <div class="form-group">
+     <input type="text" #brand="ngModel" [(ngModel)]="model.Model" class="form-control" name="model" placeholder="..." required>
+     <div *ngIf="brand.invalid&&brand.dirty">Boş bırakılamaz</div>
+     </div>
+     <br />
+
+     <div class="form-group">
+     <input type="text" #price="ngModel" [(ngModel)]="model.Date" class="form-control" name="date" placeholder="..." required>
+     <div *ngIf="price.invalid&&price.dirty">Boş bırakılamaz</div>
+     </div>
+     <br />
+
+     <div class="form-group">
+      <input type="text" #price="ngModel" [(ngModel)]="model.Country" class="form-control" name="country" placeholder="..." required>
+      <div *ngIf="price.invalid&&price.dirty">Boş bırakılamaz</div>
+      </div>
+      <br />
+
+      <div class="form-group">
+        <input type="text" #price="ngModel" [(ngModel)]="model.Status" class="form-control" name="status" placeholder="..." required>
+        <div *ngIf="price.invalid&&price.dirty">Boş bırakılamaz</div>
+        </div>
+        <br />
+
+
+
+     <button type="submit" class="btn btn-primary">Add</button>
+     
+  </form>
+</div>
+</div>
+</div>
