@@ -51,7 +51,12 @@ tıklamanız gerekmektedir ikinci tıklama '-' döngüye girer ve bir öncekinin
  ![Sil Butonu]( https://github.com/mtaltn/angularjs_json-server_hugo/blob/main/screenshots/sil.PNG)<br>
  ![Sil Alerti]( https://github.com/mtaltn/angularjs_json-server_hugo/blob/main/screenshots/silme%20i%C5%9Flemi.PNG)<br>
 
-
-
- 
+**Arama Kısmı**<br>
+*Ana sayfa üzerinden liste başlarının üzerine fare ile gelirseni örnek id,Order...vb yanında bir 
+3 çizgi oluşacaktır ona tıklarak özel arama yapabilirsiniz*<br>
+![id](https://github.com/mtaltn/angularjs_json-server_hugo/blob/main/screenshots/id%20liste.png)<br>
+![order](https://github.com/mtaltn/angularjs_json-server_hugo/blob/main/screenshots/order%20liste.png)<br>
+![order2](https://github.com/mtaltn/angularjs_json-server_hugo/blob/main/screenshots/order%20arama.PNG)<br>
+![arama](https://github.com/mtaltn/angularjs_json-server_hugo/blob/main/screenshots/%C3%BClke%20arama.PNG)<br>
+![id arama](https://github.com/mtaltn/angularjs_json-server_hugo/blob/main/screenshots/id%20liste%20i%C3%A7.png)<br>
 
