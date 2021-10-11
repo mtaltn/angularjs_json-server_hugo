@@ -45,6 +45,7 @@ tıklamanız gerekmektedir ikinci tıklama '-' döngüye girer ve bir öncekinin
  ![Anasayfda Edit](https://github.com/mtaltn/angularjs_json-server_hugo/blob/main/screenshots/g%C3%BCncelle.PNG)
  ![Edity Sayfası](https://github.com/mtaltn/angularjs_json-server_hugo/blob/main/screenshots/editpaged%C3%B6n%C3%BC%C5%9F.PNG)
  ![Edit Sayfası Butonu](https://github.com/mtaltn/angularjs_json-server_hugo/blob/main/screenshots/editbutton.PNG)
+ ![Güncelleme Sonrası](https://github.com/mtaltn/angularjs_json-server_hugo/blob/main/screenshots/g%C3%BCncelleme%20sonras%C4%B1.PNG)
  
  **Güncelleme Kısmı**<br>
  *Ana sayfa üzerinden 'Sil' butonuna basıldıktan sonra anasayfa üzerinde bir alert ile silme tamamlandı mesajı dönderir ve ana ekrana geri dönersiniz*<br>
