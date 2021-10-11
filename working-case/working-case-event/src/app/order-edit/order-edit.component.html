@@ -1,44 +1,46 @@
-<h3>{{title}} Page</h3>
+<h3 class="container-fluid d-flex justify-content-center">{{title}} Page</h3>
 <div class="container">
    <div class="row">
-      <div class="col-md-8">
+      <div class="col-md-9">
          <div class="table table-hover">
 
 
   <form #orderEditForm="ngForm" (ngSubmit)="editOrder(orderEditForm)">
      <div class="form-group">
      <input type="text" #name="ngModel" [(ngModel)]="model.Order" class="form-control" name="order" placeholder="..." required>
-     <div *ngIf="name.invalid&&name.dirty">Boş bırakılamaz</div>
+     <div *ngIf="name.invalid&&name.dirty">EMPTY</div>
      </div>
      <br />
 
      <div class="form-group">
      <input type="text" #brand="ngModel" [(ngModel)]="model.Model" class="form-control" name="model" placeholder="..." required>
-     <div *ngIf="brand.invalid&&brand.dirty">Boş bırakılamaz</div>
+     <div *ngIf="brand.invalid&&brand.dirty">EMPTY</div>
      </div>
      <br />
 
      <div class="form-group">
      <input type="text" #price="ngModel" [(ngModel)]="model.Date" class="form-control" name="date" placeholder="..." required>
-     <div *ngIf="price.invalid&&price.dirty">Boş bırakılamaz</div>
+     <div *ngIf="price.invalid&&price.dirty">EMPTY</div>
      </div>
      <br />
 
      <div class="form-group">
       <input type="text" #price="ngModel" [(ngModel)]="model.Country" class="form-control" name="country" placeholder="..." required>
-      <div *ngIf="price.invalid&&price.dirty">Boş bırakılamaz</div>
+      <div *ngIf="price.invalid&&price.dirty">EMPTY</div>
       </div>
       <br />
 
       <div class="form-group">
         <input type="text" #price="ngModel" [(ngModel)]="model.Status" class="form-control" name="status" placeholder="..." required>
-        <div *ngIf="price.invalid&&price.dirty">Boş bırakılamaz</div>
+        <div *ngIf="price.invalid&&price.dirty">EMPTY</div>
         </div>
         <br />
 
+        
 
 
-     <button type="submit" class="btn btn-primary">güncelle</button>
+
+     <button type="submit" class="btn btn-primary">Edit</button>
      
   </form>
 </div>

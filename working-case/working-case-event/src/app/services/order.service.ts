@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient,HttpHeaders,HttpErrorResponse } from '@angular/common/http';
 import { Order } from '../orderList/order';
 import { Observable } from 'rxjs';
+import { OrderSortPipe } from '../orderList/order-sort.pipe';
 
 
 @Injectable({
@@ -17,6 +18,8 @@ export class OrderService {
   getOrder():Observable<Order[]> {
     return this.http.get<Order[]>(this.path)
   }
+
+  
 
   getOrderById(id:any):Observable<Order>{
     
@@ -36,7 +39,7 @@ export class OrderService {
     return this.http.post<Order>(this.path,order,httpoption)
   }
 
-  removeOrder(id:any){ 
+  removeOrder(id:any):void{ 
     let newPath = this.path +"/" + id 
    this.http.delete(newPath).subscribe()        
   }

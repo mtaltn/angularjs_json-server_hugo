@@ -27,8 +27,11 @@ export class OrderAddComponent implements OnInit {
 
   // Add
   addOrder(form:NgForm){
-    this.orderService.add(this.model).subscribe(data=>{})
-    window.location.href='/'
+    this.orderService.add(this.model).subscribe(data=>{
+
+      window.location.href='/'
+    })
+    
   
   }
 

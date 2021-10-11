@@ -1,6 +1,8 @@
 import { Pipe, PipeTransform } from '@angular/core';
 import {Order} from './order'
 
+export type SortOrder = 'asc' | 'desc'
+
 @Pipe({
   name: 'orderFilter'
 })
@@ -16,5 +18,7 @@ export class OrderFilterPipe implements PipeTransform {
   
     ):value
   }
+  
+
 
 }
